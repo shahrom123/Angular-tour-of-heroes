@@ -1,10 +1,12 @@
+import { CommonModule, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Angular-tour-of-heroes';
+  title = 'Tour of Heroes';
 }
